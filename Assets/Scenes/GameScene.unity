@@ -921,6 +921,7 @@ GameObject:
   - component: {fileID: 838608040}
   - component: {fileID: 838608042}
   - component: {fileID: 838608041}
+  - component: {fileID: 838608043}
   m_Layer: 5
   m_Name: DistanceToPickup
   m_TagString: Untagged
@@ -1044,6 +1045,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 838608039}
   m_CullTransparentMesh: 1
+--- !u!114 &838608043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 838608039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8765d1d782973e44ea05c568ee08a70a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 791527917}
+  pickup: {fileID: 604679348}
+  pickup1: {fileID: 1499506924}
+  pickup2: {fileID: 10818464}
+  pickup3: {fileID: 2085800262}
+  pickup4: {fileID: 2052126957}
+  distanceText: {fileID: 838608041}
 --- !u!1 &839120092
 GameObject:
   m_ObjectHideFlags: 0
